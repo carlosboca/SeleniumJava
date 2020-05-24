@@ -1,0 +1,7 @@
+<suite name="Testing testNG">
+	<test name = "Test Annotations">
+		<classes>
+			<class name = "tngTests.TestNG1"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-19T10:15:13 PDT" name="Suite" finished-at="2020-05-19T10:15:13 PDT" duration-ms="62">
+    <groups>
+      <group name="moto">
+        <method signature="TestNG3.a()[pri:3, instance:tngTests.TestNG3@7c83dc97]" name="a" class="tngTests.TestNG3"/>
+        <method signature="TestNG3.c()[pri:0, instance:tngTests.TestNG3@7c83dc97]" name="c" class="tngTests.TestNG3"/>
+      </group> <!-- moto -->
+    </groups>
+    <test started-at="2020-05-19T10:15:13 PDT" name="Test" finished-at="2020-05-19T10:15:13 PDT" duration-ms="62">
+      <class name="tngTests.TestNG3">
+        <test-method signature="c()[pri:0, instance:tngTests.TestNG3@7c83dc97]" started-at="2020-05-19T10:15:13 PDT" name="c" finished-at="2020-05-19T10:15:13 PDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="d()[pri:0, instance:tngTests.TestNG3@7c83dc97]" started-at="2020-05-19T10:15:13 PDT" name="d" finished-at="2020-05-19T10:15:13 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method signature="e()[pri:0, instance:tngTests.TestNG3@7c83dc97]" started-at="2020-05-19T10:15:13 PDT" name="e" finished-at="2020-05-19T10:15:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method signature="b()[pri:0, instance:tngTests.TestNG3@7c83dc97]" started-at="2020-05-19T10:15:13 PDT" name="b" finished-at="2020-05-19T10:15:13 PDT" depends-on-methods="tngTests.TestNG3.d, tngTests.TestNG3.e" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="a()[pri:3, instance:tngTests.TestNG3@7c83dc97]" started-at="2020-05-19T10:15:13 PDT" name="a" finished-at="2020-05-19T10:15:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method signature="f()[pri:0, instance:tngTests.TestNG3@7c83dc97]" started-at="2020-05-19T10:15:13 PDT" name="f" depends-on-groups="moto" finished-at="2020-05-19T10:15:13 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- tngTests.TestNG3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
